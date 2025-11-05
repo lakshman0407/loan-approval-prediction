@@ -4,7 +4,7 @@ import pickle
 
 # Load trained Random Forest model
 import joblib
-model = joblib.load("best_model_compressed.pkl")
+model = joblib.load("best_model_compressed (1).pkl")
 
 st.set_page_config(page_title="Loan Approval Predictor", page_icon="🏦")
 st.title("🏦 Smart Loan Approval Prediction App")
